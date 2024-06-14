@@ -18,6 +18,11 @@ dependencies:
     specifier: ^3.4.27
     version: 3.4.27(typescript@5.4.5)
 
+devDependencies:
+  prettier:
+    specifier: ^3.3.2
+    version: 3.3.2
+
 packages:
 
   /@ampproject/remapping@2.3.0:
@@ -4461,7 +4466,6 @@ packages:
     resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
 
   /prism-theme-vars@0.2.5:
     resolution: {integrity: sha512-/D8gBTScYzi9afwE6v3TC1U/1YFZ6k+ly17mtVRdLpGy7E79YjJJWkXFgUDHJ2gDksV/ZnXF7ydJ4TvoDm2z/Q==}
