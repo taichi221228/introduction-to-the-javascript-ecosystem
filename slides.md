@@ -79,15 +79,21 @@ level: 2
 etc
 
 <style>
+  ul {
+    --icon-size: 25px;
+  }
+
   li {
     position: relative; 
-    padding-left: 40px;
+    padding-left: calc(var(--icon-size) + 10px);
   }
 
   img {
     position: absolute;
+    top: 50%;
     left: 0;
-    width: 30px;
+    width: var(--icon-size);
+    translate: 0 -50%;
   }
 </style>
 
@@ -117,15 +123,21 @@ level: 2
 etc
 
 <style>
+  ul {
+    --icon-size: 25px;
+  }
+
   li {
     position: relative; 
-    padding-left: 40px;
+    padding-left: calc(var(--icon-size) + 10px);
   }
 
   img {
     position: absolute;
+    top: 50%;
     left: 0;
-    width: 30px;
+    width: var(--icon-size);
+    translate: 0 -50%;
   }
 </style>
 
@@ -154,14 +166,20 @@ level: 2
 etc
 
 <style>
+  ul {
+    --icon-size: 25px;
+  }
+
   li {
     position: relative; 
-    padding-left: 40px;
+    padding-left: calc(var(--icon-size) + 10px);
   }
 
   img {
     position: absolute;
+    top: 50%;
     left: 0;
-    width: 30px;
+    width: var(--icon-size);
+    translate: 0 -50%;
   }
 </style>
