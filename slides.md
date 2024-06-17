@@ -29,58 +29,10 @@ The Evolution Leading to the Emergence of Qwik in Frontend Development
 
 ---
 transition: fade-out
+layout: center
 ---
 
 # はじめに
-
-<v-click>
-
-本登壇では下記については触れません。
-
-</v-click>
-
-<v-click>
-
-## WASM Ecosystem
-
-</v-click>
-
-<div class="grid grid-cols-10 gap-4 items-center">
-<v-click><img src="/webassembly.svg" alt="WebAssembly" /></v-click>
-<v-click><img src="/wax.svg" alt="WAX" /></v-click>
-<v-click><img src="/wasmer.svg" alt="Wasmer" /></v-click>
-<v-click><img src="/wasix.svg" alt="WASIX" /></v-click>
-<v-click><img src="/onyx.svg" alt="Onyx" /></v-click>
-</div>
-
-<v-click>
-
-## JavaScript Runtime
-
-</v-click>
-
-<div class="grid grid-cols-10 gap-4 items-center">
-<v-click><img src="/node.js.svg" alt="Node.js" /></v-click>
-<v-click><img src="/deno.svg" alt="Deno" /></v-click>
-<v-click><img src="/bun.svg" alt="Bun" /></v-click>
-<v-click><img src="/llrt.svg" alt="LLRT" /></v-click>
-<v-click><img src="/winterjs.png" alt="WinterJS" /></v-click>
-<v-click><img src="/wintercg.svg" alt="WinterCG" /></v-click>
-</div>
-
-<v-click>
-
-## JavaScript Engine
-
-</v-click>
-
-<div class="grid grid-cols-10 gap-4 items-center">
-<v-click><img src="/v8.svg" alt="V8" /></v-click>
-<v-click><img src="/spidermonkey.svg" alt="Spider Monkey" /></v-click>
-<v-click><img src="/javascriptcore.svg" alt="JavaScriptCore" /></v-click>
-<v-click><img src="/kiesel.svg" alt="Kiesel" /></v-click>
-<v-click><img src="/boa.svg" alt="Boa" /></v-click>
-</div>
 
 <style>
 h1 {
@@ -92,4 +44,124 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+</style>
+
+---
+transition: slide-left
+level: 2
+layout: center
+---
+
+# 本登壇ではこれらの技術については触れません
+
+---
+transition: slide-up
+level: 2
+---
+
+# はじめに
+
+本登壇ではこれらの技術については触れません
+
+## WASM Ecosystem
+
+<br />
+
+- <img src="/webassembly.svg" alt="WebAssembly" /> WebAssembly
+- <img src="/wax.svg" alt="WAX" /> WAX
+- <img src="/wasmer.svg" alt="Wasmer" /> Wasmer
+- <img src="/wasix.svg" alt="WASIX" /> WASIX
+- <img src="/onyx.svg" alt="Onyx" /> Onyx
+
+<br/>
+<br/>
+
+etc
+
+<style>
+  li {
+    position: relative; 
+    padding-left: 40px;
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    width: 30px;
+  }
+</style>
+
+---
+transition: slide-up
+level: 2
+---
+
+# はじめに
+
+本登壇ではこれらの技術については触れません
+
+## JavaScript Runtime
+
+<br/>
+
+- <img src="/node.js.svg" alt="Node.js" /> Node.js
+- <img src="/deno.svg" alt="Deno" /> Deno
+- <img src="/bun.svg" alt="Bun" /> Bun
+- <img src="/llrt.svg" alt="LLRT" /> LLRT
+- <img src="/winterjs.png" alt="WinterJS" /> WinterJS
+- <img src="/wintercg.svg" alt="WinterCG" /> WinterCG
+
+<br/>
+<br/>
+
+etc
+
+<style>
+  li {
+    position: relative; 
+    padding-left: 40px;
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    width: 30px;
+  }
+</style>
+
+---
+transition: slide-up
+level: 2
+---
+
+# はじめに
+
+本登壇ではこれらの技術については触れません
+
+## JavaScript Engine
+
+<br/>
+
+- <img src="/v8.svg" alt="V8" /> V8
+- <img src="/spidermonkey.svg" alt="Spider Monkey" />Spider Monkey
+- <img src="/javascriptcore.svg" alt="JavaScriptCore" /> JavaScriptCore
+- <img src="/kiesel.svg" alt="Kiesel" /> Kiesel
+- <img src="/boa.svg" alt="Boa" /> Boa
+
+<br/>
+<br/>
+
+etc
+
+<style>
+  li {
+    position: relative; 
+    padding-left: 40px;
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    width: 30px;
+  }
 </style>
