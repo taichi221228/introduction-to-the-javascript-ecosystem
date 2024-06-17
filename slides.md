@@ -67,11 +67,11 @@ level: 2
 
 <br />
 
-- <img src="/webassembly.svg" alt="WebAssembly" /> WebAssembly
-- <img src="/wax.svg" alt="WAX" /> WAX
-- <img src="/wasmer.svg" alt="Wasmer" /> Wasmer
-- <img src="/wasix.svg" alt="WASIX" /> WASIX
-- <img src="/onyx.svg" alt="Onyx" /> Onyx
+- <img src="/wasm/webassembly.svg" alt="WebAssembly" /> WebAssembly
+- <img src="/wasm/wax.svg" alt="WAX" /> WAX
+- <img src="/wasm/wasmer.svg" alt="Wasmer" /> Wasmer
+- <img src="/wasm/wasix.svg" alt="WASIX" /> WASIX
+- <img src="/wasm/onyx.svg" alt="Onyx" /> Onyx
 
 <br/>
 
@@ -109,12 +109,12 @@ level: 2
 
 <br/>
 
-- <img src="/node.js.svg" alt="Node.js" /> Node.js
-- <img src="/deno.svg" alt="Deno" /> Deno
-- <img src="/bun.svg" alt="Bun" /> Bun
-- <img src="/llrt.svg" alt="LLRT" /> LLRT
-- <img src="/winterjs.png" alt="WinterJS" /> WinterJS
-- <img src="/wintercg.svg" alt="WinterCG" /> WinterCG
+- <img src="/runtime/node.js.svg" alt="Node.js" /> Node.js
+- <img src="/runtime/deno.svg" alt="Deno" /> Deno
+- <img src="/runtime/bun.svg" alt="Bun" /> Bun
+- <img src="/runtime/llrt.svg" alt="LLRT" /> LLRT
+- <img src="/runtime/winterjs.png" alt="WinterJS" /> WinterJS
+- <img src="/runtime/wintercg.svg" alt="WinterCG" /> WinterCG
 
 <br/>
 
@@ -152,11 +152,11 @@ level: 2
 
 <br/>
 
-- <img src="/v8.svg" alt="V8" /> V8
-- <img src="/spidermonkey.svg" alt="Spider Monkey" />Spider Monkey
-- <img src="/javascriptcore.svg" alt="JavaScriptCore" /> JavaScriptCore
-- <img src="/kiesel.svg" alt="Kiesel" /> Kiesel
-- <img src="/boa.svg" alt="Boa" /> Boa
+- <img src="/engine/v8.svg" alt="V8" /> V8
+- <img src="/engine/spidermonkey.svg" alt="Spider Monkey" />Spider Monkey
+- <img src="/engine/javascriptcore.svg" alt="JavaScriptCore" /> JavaScriptCore
+- <img src="/engine/kiesel.svg" alt="Kiesel" /> Kiesel
+- <img src="/engine/boa.svg" alt="Boa" /> Boa
 
 <br/>
 
@@ -194,14 +194,14 @@ level: 2
 
 <br/>
 
-- <img src="/emotion.png" alt="Emotion" /> Emotion
-- <img src="/vanilla-extract.svg" alt="Vanilla Extract" />Vanilla Extract
-- <img src="/tailwind-css.svg" alt="Tailwind CSS" /> Tailwind CSS
-- <img src="/unocss.svg" alt="UnoCSS" /> UnoCSS
-- <img src="/panda-css.svg" alt="Panda CSS" /> Panda CSS
-- <img src="/stylex.svg" alt="StyleX" /> StyleX
-- <img src="/css-hooks.svg" alt="CSS Hooks" /> CSS Hooks
-- <img src="/macaron-css.svg" alt="Macaron CSS" /> Macaron CSS
+- <img src="/styling/emotion.png" alt="Emotion" /> Emotion
+- <img src="/styling/vanilla-extract.svg" alt="Vanilla Extract" />Vanilla Extract
+- <img src="/styling/tailwind-css.svg" alt="Tailwind CSS" /> Tailwind CSS
+- <img src="/styling/unocss.svg" alt="UnoCSS" /> UnoCSS
+- <img src="/styling/panda-css.svg" alt="Panda CSS" /> Panda CSS
+- <img src="/styling/stylex.svg" alt="StyleX" /> StyleX
+- <img src="/styling/css-hooks.svg" alt="CSS Hooks" /> CSS Hooks
+- <img src="/styling/macaron-css.svg" alt="Macaron CSS" /> Macaron CSS
 
 etc
 
