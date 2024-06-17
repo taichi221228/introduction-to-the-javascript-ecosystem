@@ -35,18 +35,6 @@ layout: center
 
 # はじめに
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
 ---
 transition: slide-left
 level: 2
@@ -58,7 +46,7 @@ layout: center
 ---
 transition: slide-up
 level: 2
-layout: table-contents
+layout: cover
 ---
 
 # はじめに
@@ -101,7 +89,7 @@ etc
 ---
 transition: slide-up
 level: 2
-layout: table-contents
+layout: cover
 ---
 
 # はじめに
@@ -145,7 +133,7 @@ etc
 ---
 transition: slide-up
 level: 2
-layout: table-contents
+layout: cover
 ---
 
 # はじめに
@@ -189,7 +177,7 @@ etc
 ---
 transition: slide-up
 level: 2
-layout: table-contents
+layout: cover
 ---
 
 # はじめに
@@ -197,8 +185,6 @@ layout: table-contents
 本登壇ではこれらの技術については触れません
 
 ## CSS Ecosystem
-
-<br/>
 
 - <img src="/styling/emotion.png" alt="Emotion" /> Emotion
 - <img src="/styling/vanilla-extract.svg" alt="Vanilla Extract" /> Vanilla Extract
@@ -208,6 +194,8 @@ layout: table-contents
 - <img src="/styling/stylex.svg" alt="StyleX" /> StyleX
 - <img src="/styling/css-hooks.svg" alt="CSS Hooks" /> CSS Hooks
 - <img src="/styling/macaron-css.svg" alt="Macaron CSS" /> Macaron CSS
+
+<br/>
 
 etc
 
