@@ -314,6 +314,18 @@ Why is Qwik gaining attention?
 
 ---
 
+# と、その前に
+
+---
+
+# React や Vue.js は終わったのか？
+
+---
+
+# 決してそんなことはない
+
+---
+
 # Svelte
 
 ---
