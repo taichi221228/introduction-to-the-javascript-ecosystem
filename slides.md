@@ -24,16 +24,7 @@ layout: center
 
 # はじめに
 
----
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
-website: "Taichi Fukuda"
-handle: "taichi221228"
-transition: slide-left
-level: 2
-layout: center
----
-
-# 本登壇ではこれらの技術については触れません
+本登壇ではこれらの技術については触れません
 
 ---
 logoHeader: "https://www.dawntraoz.com/images/logo.svg"
@@ -44,11 +35,9 @@ level: 2
 layout: cover
 ---
 
-# はじめに
+# WASM Ecosystem
 
-本登壇ではこれらの技術については触れません
-
-## WASM Ecosystem
+本登壇では WebAssembly に付随する技術については触れません
 
 <br />
 
@@ -90,11 +79,9 @@ level: 2
 layout: cover
 ---
 
-# はじめに
+# JavaScript Runtime
 
-本登壇ではこれらの技術については触れません
-
-## JavaScript Runtime
+本登壇では JavaScript 実行環境については触れません
 
 <br/>
 
@@ -137,11 +124,9 @@ level: 2
 layout: cover
 ---
 
-# はじめに
+# JavaScript Engine
 
-本登壇ではこれらの技術については触れません
-
-## JavaScript Engine
+本登壇では JavaScript エンジンについては触れません
 
 <br/>
 
@@ -179,16 +164,16 @@ etc
 logoHeader: "https://www.dawntraoz.com/images/logo.svg"
 website: "Taichi Fukuda"
 handle: "taichi221228"
-transition: slide-up
+transition: slide-left
 level: 2
 layout: cover
 ---
 
-# はじめに
+# CSS Ecosystem
 
-本登壇ではこれらの技術については触れません
+本登壇では JavaScript におけるスタイリング手法については触れません
 
-## CSS Ecosystem
+<br />
 
 - <img src="/styling/emotion.png" alt="Emotion" /> Emotion
 - <img src="/styling/vanilla-extract.svg" alt="Vanilla Extract" /> Vanilla Extract
