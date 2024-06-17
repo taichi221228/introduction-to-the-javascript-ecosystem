@@ -238,4 +238,4 @@ introImage: "https://avatars.githubusercontent.com/u/11247099?v=4"
 
 # Anthony Fu
 
-本スライドはパリに在住する Vue.js エコシステムの権威 Ant Fu 大先生による Slidev で作られました。また付随するその大多数も Vue.js 及び UnJS エコシステムのテクノロジーによって支えられています。
+本スライドはパリに在住する Vue.js エコシステムの権威 Ant Fu 大先生による Slidev によって作成されました。また付随するその大多数も Vue.js 及び UnJS エコシステムのテクノロジーによって支えられています。
