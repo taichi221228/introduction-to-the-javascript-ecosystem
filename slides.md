@@ -74,7 +74,6 @@ level: 2
 - <img src="/onyx.svg" alt="Onyx" /> Onyx
 
 <br/>
-<br/>
 
 etc
 
@@ -118,7 +117,6 @@ level: 2
 - <img src="/wintercg.svg" alt="WinterCG" /> WinterCG
 
 <br/>
-<br/>
 
 etc
 
@@ -160,7 +158,6 @@ level: 2
 - <img src="/kiesel.svg" alt="Kiesel" /> Kiesel
 - <img src="/boa.svg" alt="Boa" /> Boa
 
-<br/>
 <br/>
 
 etc
