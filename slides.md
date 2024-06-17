@@ -239,3 +239,83 @@ introImage: "https://avatars.githubusercontent.com/u/11247099?v=4"
 # Anthony Fu
 
 本スライドはパリに在住する Vue.js エコシステムの権威 Ant Fu 大先生による Slidev によって作成されました。また付随するその大多数も Vue.js 及び UnJS エコシステムのテクノロジーによって支えられています。
+
+---
+
+# Anthony Fu について
+
+---
+
+# Slidev について
+
+---
+
+# Why did `X` dominate?
+
+---
+
+# VDOM の発明
+
+Why did React/Vue.js dominate?
+
+---
+
+# 0 Config と SSR
+
+Why did Next.js/Nuxt dominate?
+
+---
+
+# 混沌への対抗
+
+Why did Webpack dominate?
+
+<!--
+モジュールシステム・タスクランナーについて
+-->
+
+---
+
+# No bundling
+
+Why did Vite dominate?
+
+---
+
+# Why is `X` gaining attention?
+
+---
+
+# コンパイル時最適化
+
+Why is Svelte gaining attention?
+
+---
+
+# Absolute Zero & Island Architecture
+
+Why is Astro gaining attention?
+
+---
+
+# Edge first & True portability
+
+Why is Hono gaining attention?
+
+---
+
+# Zero Hydration Resumability
+
+Why is Qwik gaining attention?
+
+---
+
+# プロダクションサイドで採用できうるものは何か？
+
+---
+
+# Svelte
+
+---
+
+# Astro
