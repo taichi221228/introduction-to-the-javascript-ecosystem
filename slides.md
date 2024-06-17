@@ -1,4 +1,5 @@
 ---
+theme: unicorn
 background: https://cover.sli.dev
 title: What's the Aim of the Current JavaScript Ecosystem? An Overview of Its Developments ~ The Evolution Leading to the Emergence of Qwik in Frontend Development ~
 class: text-center
@@ -57,6 +58,7 @@ layout: center
 ---
 transition: slide-up
 level: 2
+layout: table-contents
 ---
 
 # はじめに
@@ -99,6 +101,7 @@ etc
 ---
 transition: slide-up
 level: 2
+layout: table-contents
 ---
 
 # はじめに
@@ -142,6 +145,7 @@ etc
 ---
 transition: slide-up
 level: 2
+layout: table-contents
 ---
 
 # はじめに
@@ -185,6 +189,7 @@ etc
 ---
 transition: slide-up
 level: 2
+layout: table-contents
 ---
 
 # はじめに
