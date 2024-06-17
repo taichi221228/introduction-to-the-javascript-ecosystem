@@ -153,7 +153,7 @@ level: 2
 <br/>
 
 - <img src="/engine/v8.svg" alt="V8" /> V8
-- <img src="/engine/spidermonkey.svg" alt="Spider Monkey" />Spider Monkey
+- <img src="/engine/spidermonkey.svg" alt="Spider Monkey" /> Spider Monkey
 - <img src="/engine/javascriptcore.svg" alt="JavaScriptCore" /> JavaScriptCore
 - <img src="/engine/kiesel.svg" alt="Kiesel" /> Kiesel
 - <img src="/engine/boa.svg" alt="Boa" /> Boa
@@ -195,7 +195,7 @@ level: 2
 <br/>
 
 - <img src="/styling/emotion.png" alt="Emotion" /> Emotion
-- <img src="/styling/vanilla-extract.svg" alt="Vanilla Extract" />Vanilla Extract
+- <img src="/styling/vanilla-extract.svg" alt="Vanilla Extract" /> Vanilla Extract
 - <img src="/styling/tailwind-css.svg" alt="Tailwind CSS" /> Tailwind CSS
 - <img src="/styling/unocss.svg" alt="UnoCSS" /> UnoCSS
 - <img src="/styling/panda-css.svg" alt="Panda CSS" /> Panda CSS
