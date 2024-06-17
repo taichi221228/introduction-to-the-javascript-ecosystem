@@ -24,7 +24,16 @@ layout: center
 
 # はじめに
 
-本登壇ではこれらの技術については触れません
+---
+logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+transition: slide-left
+level: 2
+layout: center
+---
+
+# 本登壇ではこれらの技術については触れません
 
 ---
 logoHeader: "https://www.dawntraoz.com/images/logo.svg"
@@ -205,3 +214,28 @@ etc
     translate: 0 -50%;
   }
 </style>
+
+---
+logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+transition: slide-left
+level: 2
+layout: center
+---
+
+# 本スライド は Slidev で作成されました
+
+---
+logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+transition: slide-up
+level: 2
+layout: intro
+introImage: "https://avatars.githubusercontent.com/u/11247099?v=4"
+---
+
+# Anthony Fu
+
+本スライドはパリに在住する Vue.js エコシステムの権威 Ant Fu 大先生による Slidev で作られました。また付随するその大多数も Vue.js 及び UnJS エコシステムのテクノロジーによって支えられています。
