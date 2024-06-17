@@ -155,6 +155,7 @@ level: 2
 - <img src="/engine/v8.svg" alt="V8" /> V8
 - <img src="/engine/spidermonkey.svg" alt="Spider Monkey" /> Spider Monkey
 - <img src="/engine/javascriptcore.svg" alt="JavaScriptCore" /> JavaScriptCore
+- <img src="/engine/hermes.svg" alt="Hermes" /> Hermes
 - <img src="/engine/kiesel.svg" alt="Kiesel" /> Kiesel
 - <img src="/engine/boa.svg" alt="Boa" /> Boa
 
