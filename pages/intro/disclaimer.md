@@ -19,38 +19,17 @@ level: 2
 
 <br />
 
-- <img src="/wasm/webassembly.svg" alt="WebAssembly" /> WebAssembly
-- <img src="/wasm/wax.svg" alt="WAX" /> WAX
-- <img src="/wasm/wasmer.svg" alt="Wasmer" /> Wasmer
-- <img src="/wasm/wasix.svg" alt="WASIX" /> WASIX
-- <img src="/wasm/onyx.svg" alt="Onyx" /> Onyx
-
-<br/>
-
-etc
-
-<style>
-  ul {
-    --icon-size: 25px;
-  }
-
-  li {
-    position: relative; 
-    padding-left: calc(var(--icon-size) + 10px);
-  }
-
-  img {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: var(--icon-size);
-    translate: 0 -50%;
-  }
-</style>
+<LogoList :items="[
+    { name: 'WebAssembly', path: '/wasm/webassembly.svg' },
+    { name: 'WAX', path: '/wasm/wax.svg' },
+    { name: 'Wasmer', path: '/wasm/wasmer.svg' },
+    { name: 'WASIX', path: '/wasm/wasix.svg' },
+    { name: 'Onyx', path: '/wasm/onyx.svg' },
+  ]"/>
 
 ---
 layout: image-right
-image: https://cover.sli.dev?1
+image: https://cover.sli.dev?be304863
 transition: slide-up
 level: 2
 ---
@@ -61,39 +40,18 @@ level: 2
 
 <br/>
 
-- <img src="/runtime/node.js.svg" alt="Node.js" /> Node.js
-- <img src="/runtime/deno.svg" alt="Deno" /> Deno
-- <img src="/runtime/bun.svg" alt="Bun" /> Bun
-- <img src="/runtime/llrt.svg" alt="LLRT" /> LLRT
-- <img src="/runtime/winterjs.png" alt="WinterJS" /> WinterJS
-- <img src="/runtime/wintercg.svg" alt="WinterCG" /> WinterCG
-
-<br/>
-
-etc
-
-<style>
-  ul {
-    --icon-size: 25px;
-  }
-
-  li {
-    position: relative; 
-    padding-left: calc(var(--icon-size) + 10px);
-  }
-
-  img {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: var(--icon-size);
-    translate: 0 -50%;
-  }
-</style>
+<LogoList :items="[
+    { name: 'Node.js', path: '/runtime/node.js.svg' },
+    { name: 'Deno', path: '/runtime/deno.svg' },
+    { name: 'Bun', path: '/runtime/bun.svg' },
+    { name: 'LLRT', path: '/runtime/llrt.svg' },
+    { name: 'WinterJS', path: '/runtime/winterjs.png' },
+    { name: 'WinterCG', path: '/runtime/wintercg.svg' },
+  ]" />
 
 ---
 layout: image-right
-image: https://cover.sli.dev?2
+image: https://cover.sli.dev?c9fa9f43
 transition: slide-up
 level: 2
 ---
@@ -104,39 +62,18 @@ level: 2
 
 <br/>
 
-- <img src="/engine/v8.svg" alt="V8" /> V8
-- <img src="/engine/spidermonkey.svg" alt="Spider Monkey" /> Spider Monkey
-- <img src="/engine/javascriptcore.svg" alt="JavaScriptCore" /> JavaScriptCore
-- <img src="/engine/hermes.svg" alt="Hermes" /> Hermes
-- <img src="/engine/kiesel.svg" alt="Kiesel" /> Kiesel
-- <img src="/engine/boa.svg" alt="Boa" /> Boa
-
-<br/>
-
-etc
-
-<style>
-  ul {
-    --icon-size: 25px;
-  }
-
-  li {
-    position: relative; 
-    padding-left: calc(var(--icon-size) + 10px);
-  }
-
-  img {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: var(--icon-size);
-    translate: 0 -50%;
-  }
-</style>
+<LogoList :items="[
+    { name: 'V8', path: '/engine/v8.svg' },
+    { name: 'Spider Monkey', path: '/engine/spidermonkey.svg' },
+    { name: 'JavaScriptCore', path: '/engine/javascriptcore.svg' },
+    { name: 'Hermes', path: '/engine/hermes.svg' },
+    { name: 'Kiesel', path: '/engine/kiesel.svg' },
+    { name: 'Boa', path: '/engine/boa.svg' },
+  ]" />
 
 ---
 layout: image-right
-image: https://cover.sli.dev?4
+image: https://cover.sli.dev?111680c9
 transition: slide-left
 level: 2
 ---
@@ -147,33 +84,12 @@ level: 2
 
 <br />
 
-- <img src="/styling/emotion.png" alt="Emotion" /> Emotion
-- <img src="/styling/vanilla-extract.svg" alt="Vanilla Extract" /> Vanilla Extract
-- <img src="/styling/tailwind-css.svg" alt="Tailwind CSS" /> Tailwind CSS
-- <img src="/styling/unocss.svg" alt="UnoCSS" /> UnoCSS
-- <img src="/styling/panda-css.svg" alt="Panda CSS" /> Panda CSS
-- <img src="/styling/stylex.svg" alt="StyleX" /> StyleX
-- <img src="/styling/macaron-css.svg" alt="Macaron CSS" /> Macaron CSS
-
-<br/>
-
-etc
-
-<style>
-  ul {
-    --icon-size: 25px;
-  }
-
-  li {
-    position: relative; 
-    padding-left: calc(var(--icon-size) + 10px);
-  }
-
-  img {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: var(--icon-size);
-    translate: 0 -50%;
-  }
-</style>
+<LogoList :items="[
+    { name: 'Emotion', path: '/styling/emotion.png' },
+    { name: 'Vanilla Extract', path: '/styling/vanilla-extract.svg' },
+    { name: 'Tailwind CSS', path: '/styling/tailwind-css.svg' },
+    { name: 'UnoCSS', path: '/styling/unocss.svg' },
+    { name: 'Panda CSS', path: '/styling/panda-css.svg' },
+    { name: 'StyleX', path: '/styling/stylex.svg' },
+    { name: 'Macaron CSS', path: '/styling/macaron-css.svg' },
+  ]" />
