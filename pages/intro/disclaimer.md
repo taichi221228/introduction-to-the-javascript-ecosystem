@@ -15,7 +15,7 @@ level: 2
 
 # WASM Ecosystem
 
-本登壇では WebAssembly に付随する技術については触れませんs
+本登壇では WebAssembly に付随する技術については触れません
 
 <br />
 
