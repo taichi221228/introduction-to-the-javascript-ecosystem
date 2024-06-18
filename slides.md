@@ -12,7 +12,7 @@ transition: slide-left
 The Evolution Leading to the Emergence of Qwik in Frontend Development
 
 ---
-src: ./pages/intro/main.md
+src: ./pages/intro/title.md
 ---
 
 ---
