@@ -1,6 +1,6 @@
 ---
 theme: unicorn
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 layout: center
@@ -15,7 +15,7 @@ mdc: true
 The Evolution Leading to the Emergence of Qwik in Frontend Development
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: fade-out
@@ -25,7 +25,7 @@ layout: center
 # はじめに
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-left
@@ -36,7 +36,7 @@ layout: center
 # 本登壇ではこれらの技術については触れません
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-up
@@ -79,7 +79,7 @@ etc
 </style>
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-up
@@ -123,7 +123,7 @@ etc
 </style>
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-up
@@ -167,7 +167,7 @@ etc
 </style>
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-left
@@ -212,7 +212,7 @@ etc
 </style>
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-left
@@ -223,7 +223,7 @@ layout: center
 # 本スライド は Slidev で作成されました
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-up
@@ -237,7 +237,7 @@ introImage: "https://avatars.githubusercontent.com/u/11247099?v=4"
 本スライドはパリに在住する Vue.js エコシステムの権威 Ant Fu 大先生による Slidev によって作成されました。また付随するその大多数も Vue.js 及び UnJS エコシステムのテクノロジーによって支えられています。
 
 ---
-logoHeader: "https://www.dawntraoz.com/images/logo.svg"
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
 website: "Taichi Fukuda"
 handle: "taichi221228"
 transition: slide-up
@@ -287,13 +287,25 @@ level: 2
 </style>
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # Slidev について
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # Why did `X` dominate?
 
+---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
 ---
 
 # VDOM の発明
@@ -301,11 +313,19 @@ level: 2
 Why did React/Vue.js dominate?
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # 0 Config と SSR
 
 Why did Next.js/Nuxt dominate?
 
+---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
 ---
 
 # 混沌への対抗
@@ -317,15 +337,27 @@ Why did Webpack dominate?
 -->
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # No bundling
 
 Why did Vite dominate?
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # Why is `X` gaining attention?
 
+---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
 ---
 
 # コンパイル時最適化
@@ -333,11 +365,19 @@ Why did Vite dominate?
 Why is Svelte gaining attention?
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # Absolute Zero & Island Architecture
 
 Why is Astro gaining attention?
 
+---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
 ---
 
 # Edge first & True portability
@@ -345,31 +385,59 @@ Why is Astro gaining attention?
 Why is Hono gaining attention?
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # Zero Hydration Resumability
 
 Why is Qwik gaining attention?
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # プロダクションサイドで採用できうるものは何か？
 
+---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
 ---
 
 # と、その前に
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # React や Vue.js は終わったのか？
 
+---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
 ---
 
 # 決してそんなことはない
 
 ---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
+---
 
 # Svelte
 
+---
+logoHeader: "https://avatars.githubusercontent.com/u/108555840?s=200&v=4"
+website: "Taichi Fukuda"
+handle: "taichi221228"
 ---
 
 # Astro
