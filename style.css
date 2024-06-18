@@ -1,0 +1,6 @@
+html,
+body,
+#app,
+#page-root {
+  @apply font-serif;
+}

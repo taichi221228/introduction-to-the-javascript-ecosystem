@@ -1,9 +1,12 @@
 ---
-theme: seriph
-background: https://cover.sli.dev
-highlighter: shiki
-mdc: true
 title: What's the Aim of the Current JavaScript Ecosystem? An Overview of Its Developments ~ The Evolution Leading to the Emergence of Qwik in Frontend Development ~
+titleTemplate: "%s - Slidev"
+author: taichi221228
+mdc: true
+theme: seriph
+fonts:
+  serif: "Noto Serif, Noto Serif JP"
+background: https://cover.sli.dev
 transition: slide-left
 ---
 
@@ -21,4 +24,8 @@ src: ./pages/intro/disclaimer.md
 
 ---
 src: ./pages/intro/about.md
+---
+
+---
+src: ./pages/intro/main.md
 ---
