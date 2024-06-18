@@ -24,7 +24,7 @@ level: 2
 
 </div>
 
-<img class="rounded-full" src="https://avatars.githubusercontent.com/u/11247099?v=4" alt="Anthony Fu" />
+<img class="rounded-full border-4 border-color-[var(--slidev-theme-primary)]" src="https://avatars.githubusercontent.com/u/11247099?v=4" alt="Anthony Fu" />
 
 </div>
 
