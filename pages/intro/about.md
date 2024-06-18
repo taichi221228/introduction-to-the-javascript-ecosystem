@@ -1,15 +1,15 @@
 ---
+layout: section
 transition: slide-left
 level: 2
-layout: section
 ---
 
 # 本スライドについて
 
 ---
+layout: intro
 transition: slide-up
 level: 2
-layout: intro
 ---
 
 <div class="grid grid-cols-2 gap-20">
@@ -84,3 +84,10 @@ level: 2
     margin-inline: auto;
   }
 </style>
+
+---
+transition: slide-left
+level: 2
+---
+
+# Slidev について
