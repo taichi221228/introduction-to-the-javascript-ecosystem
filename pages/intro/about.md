@@ -1,6 +1,6 @@
 ---
 layout: section
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
@@ -8,7 +8,6 @@ level: 2
 
 ---
 layout: intro
-class: text-justify
 transition: slide-up
 level: 2
 ---
@@ -19,8 +18,7 @@ level: 2
 
 # Anthony Fu
 
-本スライドはパリに在住する Vue.js エコシステムの権威 Ant Fu 氏による Slidev によって作成されました。\
-また付随するその大多数も Vue.js 及び UnJS エコシステムのテクノロジーによって支えられています。
+本スライドはパリに在住する Vue.js エコシステムの権威、敬愛する Ant Fu 氏による Slidev によって作成され、また付随するその大多数も Vue.js 及び UnJS エコシステムのテクノロジーによって支えられています
 
 </div>
 
@@ -35,9 +33,8 @@ level: 2
 
 # 彼が携わったもの
 
-これらは全て鉄人 Ant Fu による多大なる努力によって成り立っています
+ほんの一例ですが、これらは全て鉄人 Ant Fu による多大なる努力によって成り立っています
 
-<br/>
 <br/>
 
 <LogoGrid :items="[
