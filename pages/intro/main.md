@@ -7,8 +7,7 @@ level: 2
 # 本題
 
 ---
-layout: image-left
-image: https://cover.sli.dev?e0f4f316
+layout: statement
 transition: slide-up
 level: 2
 ---
@@ -28,8 +27,7 @@ level: 2
 </section>
 
 ---
-layout: image-left
-image: https://cover.sli.dev?6874dfbd
+layout: statement
 transition: slide-up
 level: 2
 ---
