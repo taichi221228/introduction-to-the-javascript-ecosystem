@@ -1,5 +1,5 @@
 ---
-title: What's the Aim of the Current JavaScript Ecosystem? An Overview of Its Developments ~ The Evolution Leading to the Emergence of Qwik in Frontend Development ~
+title: What's the Aim of the Current JavaScript Ecosystem? ~ The Evolution Leading to the Emergence of Qwik in Frontend Development ~
 titleTemplate: "%s - Slidev"
 author: taichi221228
 mdc: true
