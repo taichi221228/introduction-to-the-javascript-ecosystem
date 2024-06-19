@@ -45,49 +45,6 @@ transition: slide-up
 level: 2
 ---
 
-# 具体的に何をしているか？
-
-VDOM のロジック
-
-先にも説明したように、DOM を直接操作する手法は難儀が多い
-
-そこで React チームは、Web API をアセンブラに見立て、そこに対応する IR（中間表現）のようなものを作ろうと考えた
-
-具体的には、View の更新が必要な際に、いきなり DOM に対して直接的操作を行うのではなく、まず JavaScript 上に仮想的な DOM 構築しそこで View を更新する
-
-そしてその更新前後で差分を検出し、最終的に計算された必要最低限の差分だけを DOM に反映させる
-
-::right::
-
-つまり **VDOM は言ってしまえばただの JavaScript のオブジェクト**
-
-```js twoslash
-const vnode = {
-  type: "div",
-  props: { id: "my-app" },
-  children: [
-    {
-      type: "p",
-      props: {},
-      children: [`count: 0`],
-    },
-    {
-      type: "button",
-      props: { onClick: increment },
-      children: ["increment"],
-    },
-  ],
-};
-```
-
-<small class="opacity-50">Vue.js の Patch Rendering における簡易的な例</small>
-
----
-layout: two-cols
-transition: slide-up
-level: 2
----
-
 # そもそも DOM とは
 
 Document Object Model の略
@@ -132,6 +89,49 @@ graph TD
 こうなる
 
 </div>
+
+---
+layout: two-cols
+transition: slide-up
+level: 2
+---
+
+# 具体的に何をしているか？
+
+VDOM のロジック
+
+先にも説明したように、DOM を直接操作する手法は難儀が多い
+
+そこで React チームは、Web API をアセンブラに見立て、そこに対応する IR（中間表現）のようなものを作ろうと考えた
+
+具体的には、View の更新が必要な際に、いきなり DOM に対して直接的操作を行うのではなく、まず JavaScript 上に仮想的な DOM 構築しそこで View を更新する
+
+そしてその更新前後で差分を検出し、最終的に計算された必要最低限の差分だけを DOM に反映させる
+
+::right::
+
+つまり **VDOM は言ってしまえばただの JavaScript のオブジェクト**
+
+```js twoslash
+const vnode = {
+  type: "div",
+  props: { id: "my-app" },
+  children: [
+    {
+      type: "p",
+      props: {},
+      children: [`count: 0`],
+    },
+    {
+      type: "button",
+      props: { onClick: increment },
+      children: ["increment"],
+    },
+  ],
+};
+```
+
+<small class="opacity-50">Vue.js の Patch Rendering における簡易的な例</small>
 
 ---
 layout: statement
