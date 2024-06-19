@@ -29,3 +29,11 @@ src: ./pages/intro/about.md
 ---
 src: ./pages/intro/main.md
 ---
+
+---
+src: ./pages/domination/title.md
+---
+
+---
+src: ./pages/domination/react.md
+---
