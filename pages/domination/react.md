@@ -189,19 +189,19 @@ level: 2
 
 JSConf EU 2013 の Pete による公演 **Rethinking Best Practices** にて
 
-React は魔法ではない
-
-C 言語でアセンブラを使用して C コンパイラに勝てるのと同様に、必要に応じて生の DOM と DOM API を使えば React に勝つことができる
-
-しかし、C や Java、JavaScript を使うとプラットフォームの詳細について心配する必要がなくなるため、パフォーマンスが桁違いに向上する
-
-React を使うことで、パフォーマンスを気にすることなくアプリケーションを構築することができる
-
-何よりもデフォルトの state は十分に高速だ
+> React は魔法ではない
+> <br /><br />
+> C 言語でアセンブラを使用して C コンパイラに勝てるのと同様に、必要に応じて生の DOM と DOM API を使えば React に勝つことができる
+> <br /><br />
+> しかし、C や Java、JavaScript を使うとプラットフォームの詳細について心配する必要がなくなるため、パフォーマンスが桁違いに向上する
+> <br /><br />
+> React を使うことで、パフォーマンスを気にすることなくアプリケーションを構築することができる
+> <br /><br />
+> 何よりもデフォルトの state は十分に高速だ
 
 ---
 layout: fact
-transition: slide-up
+transition: slide-left
 level: 2
 ---
 
