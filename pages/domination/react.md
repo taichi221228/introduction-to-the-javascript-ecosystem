@@ -92,8 +92,8 @@ graph TD
       head --> title
     html --> body
       body --> div
-      body --> button
-      body --> p
+        div --> button
+        div --> p
 ```
 
 こうなる
