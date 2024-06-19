@@ -3,6 +3,10 @@ import { type PropType, ref } from "vue";
 
 const props = defineProps({
   items: Array as PropType<{ name: string; path: string }[]>,
+  hasEtc: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 const items = ref(props.items);
@@ -19,8 +23,10 @@ const items = ref(props.items);
       {{ item.name }}
     </li>
   </ul>
+  <div v-if="hasEtc">
 
-  <br />
+    <br />
 
-  etc
+    etc
+  </div v-if>
 </template>
