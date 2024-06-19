@@ -83,8 +83,8 @@ graph TD
         title[title]
       body[body]
         div[div]
-        button[button]
-        p[p]
+          button[button]
+          p[p]
 
   document --> html
     html --> head
