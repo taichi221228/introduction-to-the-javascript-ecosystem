@@ -37,3 +37,7 @@ src: ./pages/domination/title.md
 ---
 src: ./pages/domination/react.md
 ---
+
+---
+src: ./pages/domination/next.js.md
+---
