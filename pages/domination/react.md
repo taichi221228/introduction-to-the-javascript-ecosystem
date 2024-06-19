@@ -41,7 +41,6 @@ VDOM はこれらの問題を解決するために生まれたもので、View �
 
 ---
 layout: two-cols
-class: mx-4
 transition: slide-up
 level: 2
 ---
@@ -140,43 +139,85 @@ transition: slide-up
 level: 2
 ---
 
-# しかし VDOM も完璧ではない
+# VDOM の課題
 
 ---
-layout: fact
+layout: statement
+transition: slide-up
+level: 2
+---
+
+# SEO に弱い
+
+VDOM の課題その 1
+
+<div class="grid grid-cols-2 gap-6 text-left">
+
+<div>
+
+VDOM で全てをレンダリングする手法、通称 CSR（狭義の SPA）では、あらゆるコンテンツがブラウザ上で JavaScript によって動的に生成される
+
+このために、検索エンジンのクローラーが適切に Indexing できない問題が発生した
+
+</div>
+
+<div>
+
+```html
+<html>
+  <head>
+    <title>My app</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+```
+
+<small class="opacity-50">クローラーにはただの中身が空の `<div />` と認識されたやつ</small>
+
+</div>
+
+</div>
+
+---
+layout: statement
 transition: slide-up
 level: 2
 ---
 
 # ランタイムが重い
 
-VDOM の課題その 1
+VDOM の課題その 2
 
 VDOM はその構造と登場した時代の都合上、全てクライアントの JS で動作することが前提となっている\
 View の更新のために大規模な最適化基盤を追加搭載するため、バンドルサイズがめちゃくちゃでかい
 
-<div class="text-xl">
+これが当時問題となった、SPA の FMP 問題
 
-これが当時問題となった、SPA の FMP 問題\
+<div class="text-2xl">
+
 いわゆる **SPA 最初のレンダリング遅過ぎ問題**
 
 </div>
 
 ---
-layout: fact
+layout: statement
 transition: slide-up
 level: 2
 ---
 
 # 別に速くはない
 
-VDOM の課題その 2
+VDOM の課題その 3
 
 勘違いされがちだが、**VDOM は別に速くはない**
 
 理屈は単純で、VDOM の操作は最終的な DOM 操作に**加えて**行われるので、直接 DOM を叩く方法に速度で勝ることはない
 
 ちなみにこれは React が世に解き放たれた公演 React チームの Pete による、JSConf EU 2013 の **Rethinking Best Practices** にて既に解説されている
+
+VDOM は速いのではなく、**そのままでは遅すぎたものを十分に速くしたもの**
 
 ---
 layout: image-right
@@ -200,14 +241,14 @@ JSConf EU 2013 の Pete による公演 **Rethinking Best Practices** にて
 > 何よりもデフォルトの state は十分に高速だ
 
 ---
-layout: fact
-transition: slide-left
+layout: statement
+transition: slide-up
 level: 2
 ---
 
-# 環境構築難儀すぎ
+# 体験が悪い
 
-VDOM の課題その 3
+VDOM の課題その 4
 
 当時の React や Vue.js エコシステムにはろくな Scaffolding 手段がなかった
 
@@ -215,4 +256,29 @@ VDOM の課題その 3
 
 少し経って Create React App が生まれたが、これはこれで設定ファイル群をあまりにも秘匿しすぎで扱いにくかった
 
-また React Router ビッグバンリリースにより **React Router 被害者の会** が生まれた
+また React Router ビッグバンリリースにより **React Router 被害者の会** が生まれたのもこの辺りで
+
+全体を通して開発しにくかった
+
+---
+layout: image-right
+image: https://cover.sli.dev?377d4cd9
+transition: slide-up
+level: 2
+---
+
+# まとめ
+
+結局何だったのか？
+
+Virtual DOM により、React や Vue.js にならった書き方をするだけで、それまでよりもよっぽど軽く・堅牢なアプリケーションを作れるようになった
+
+他方で、SEO 的な課題や、初期表示の遅さ、開発体験の悪さなど、VDOM 由来の新たな課題も発生した
+
+---
+layout: statement
+transition: slide-left
+level: 2
+---
+
+# 続いて
