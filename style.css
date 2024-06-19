@@ -4,3 +4,7 @@ body,
 #page-root {
   @apply font-serif;
 }
+
+.two-columns {
+  @apply gap-4;
+}
