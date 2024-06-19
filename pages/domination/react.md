@@ -74,26 +74,34 @@ JavaScript はこれを使用して HTML を操作する
 
 <div class="text-center">
 
-```mermaid
+```mermaid {scale: 0.7}
 graph TD
   document[document]
-    html[html]
-      head[head]
-        meta[meta]
-        title[title]
-      body[body]
-        div[div]
-          button[button]
-          p[p]
+    html[Root Element: <br /> &lt;html&gt;]
+      head[Element: <br /> &lt;head&gt;]
+        meta[Element: <br /> &lt;meta&gt;]
+        title[Element: <br /> &lt;title&gt;]
+          text1[Text: <br / >&quot;My App&quot;]
+      body[Element: <br /> &lt;body&gt;]
+        div[Element: <br /> &lt;div&gt;]
+          id[Attribute: <br /> id]
+          button[Element: <br /> &lt;button&gt;]
+            text2[Text: <br /> &quot;increment&quot;]
+          p[Element: <br /> &lt;p&gt;]
+            text3[Text: <br /> &quot;count: 0&quot;]
 
   document --> html
     html --> head
       head --> meta
       head --> title
+        title --> text1
     html --> body
       body --> div
+        div --> id
         div --> button
+          button --> text2
         div --> p
+          p --> text3
 ```
 
 こうなる
