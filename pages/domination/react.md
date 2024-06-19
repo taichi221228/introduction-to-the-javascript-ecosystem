@@ -57,10 +57,14 @@ JavaScript はこれを使用して HTML を操作する
 
 ```html
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My App</title>
+  </head>
   <body>
-    <div id="my-app">
+    <div id="root">
+      <button>increment</button>
       <p>count: 0</p>
-      <button type="button">increment</button>
     </div>
   </body>
 </html>
@@ -72,18 +76,24 @@ JavaScript はこれを使用して HTML を操作する
 
 ```mermaid
 graph TD
-  A[document]
-  B[html]
-  C[body]
-  D[div]
-  E[p]
-  F[button]
+  document[document]
+    html[html]
+      head[head]
+        meta[meta]
+        title[title]
+      body[body]
+        div[div]
+        button[button]
+        p[p]
 
-  A --> B
-  B --> C
-  C --> D
-  D --> E
-  D --> F
+  document --> html
+    html --> head
+      head --> meta
+      head --> title
+    html --> body
+      body --> div
+      body --> button
+      body --> p
 ```
 
 こうなる
