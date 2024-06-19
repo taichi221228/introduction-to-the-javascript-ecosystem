@@ -1,6 +1,6 @@
 ---
 layout: section
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
@@ -8,7 +8,7 @@ level: 2
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: https://cover.sli.dev?e7dbacaa
 transition: slide-up
 level: 2
 ---
