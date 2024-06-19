@@ -1,6 +1,6 @@
 ---
 layout: section
-transiton: fade-out
+transition: fade-out
 ---
 
 # はじめに
