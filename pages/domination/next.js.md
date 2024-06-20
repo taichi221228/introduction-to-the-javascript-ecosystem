@@ -355,8 +355,18 @@ Next.js/Nuxt により、開発体験が大幅に向上し、SSR や SSG の難�
 
 ---
 layout: statement
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
-# 続いて
+# これで一旦過去編は終わりです
+
+本当はモジュールシステムも説明したかったですが、時間の都合上
+
+---
+layout: statement
+transition: fade-left
+level: 2
+---
+
+# 続いては
