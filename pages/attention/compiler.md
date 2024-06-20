@@ -38,6 +38,30 @@ IR からの脱却
 </div>
 
 ---
+transition: slide-up
+level: 2
+---
+
+# 政治状況
+
+<div class="flex gap-4">
+<div class="basis-1/3 shrink-0">
+
+Svelte は Stack Overflow Developer Survey 2021 にて
+
+**開発者が最も愛するフレームワーク**の一位に選出されており、流れは上々と言える
+
+日本でも割と採用実績が出てきており、有名どころでいえば
+
+現在日本一技術力が高い JamStack・エッジサーバレスの専門家集団 PixelGrid Inc. が積極的に採用している
+
+</div>
+
+![Most Loved Framework](/compiler/most-loved-framework.png)
+
+</div>
+
+---
 layout: two-cols
 transition: slide-up
 level: 2
@@ -47,27 +71,29 @@ level: 2
 
 React は偉大だが、難しすぎる
 
-React は反応性としては Vue.js などと比べても特殊で、大多数が**該当箇所を再レンダリングする**のに対し、React は**全てを再レンダリングする**という特徴を持つ
+彼らの特徴に、反 React 的反応性が挙げられる
 
-つまり React 以外は自動でレンダリングをスキップするが、React ではレンダリングをスキップしたい時は**明示的に書かなければいけない**
+大多数が**該当箇所を再レンダリングする**のに対し、React は**付随する全てを再レンダリングする**という特徴を持つ
+
+つまり React 以外は自動でレンダリングをスキップするが、React では**明示しない限りスキップされることがない**
 
 これはある側面では正しい。故に React はステートを変更すればその画面の依存は全て更新されることが確約されているため、堅牢と言える
 
-しかし一方で、この仕様は難易度を増加させる\
-書き手の力量でアプリの品質が変わるのだ
+しかし一方で、この仕様は書き手の力量でアプリの品質が変わることを意味する
 
 ::right::
 
 ![](/compiler/kitze.png)
 
-<small class="opacity-50">Web フロントエンドの権威 kitze にとって React Hooks は扱い辛いものだった</small>
+<small class="opacity-50">Web フロントエンドの権威 kitze にとって React Hooks は扱い辛いものだった</small>\
+<small class="opacity-50">そして MobX が過小評価されているという見解は私も激しく同意する</small>
 
 ---
 transition: slide-up
 level: 2
 ---
 
-# 従来のコード
+# React Way
 
 冗長で窮屈。そして危険
 
@@ -149,7 +175,7 @@ transition: slide-up
 level: 2
 ---
 
-# Svelte/SolidJS では
+# Svelte/SolidJS Way
 
 簡潔で柔軟。それでいて堅牢
 
