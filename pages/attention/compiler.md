@@ -4,7 +4,7 @@ transition: slide-up
 level: 2
 ---
 
-# Anti-VDOM
+# コンパイル時最適化
 
 Why is **Svelte**/**SolidJS** gaining attention?
 
