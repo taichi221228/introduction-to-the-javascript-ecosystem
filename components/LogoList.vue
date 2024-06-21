@@ -15,18 +15,17 @@ const items = ref(props.items);
 <template>
   <ul>
     <li v-for="item in items" :key="item.path" class="relative !pl-8">
-      <img
-        :src="item.path"
-        :alt="item.name"
-        class="absolute top-1/2 left-0 w-6 -translate-y-1/2"
-      />
+      <div
+        class="absolute top-1/2 left-0 flex justify-center items-center w-6 h-6 -translate-y-1/2"
+      >
+        <img :src="item.path" :alt="item.name" class="max-h-full" />
+      </div>
       {{ item.name }}
     </li>
   </ul>
   <div v-if="hasEtc">
-
     <br />
 
     etc
-  </div v-if>
+  </div>
 </template>

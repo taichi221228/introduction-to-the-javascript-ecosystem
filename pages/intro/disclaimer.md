@@ -4,7 +4,7 @@ transition: slide-up
 level: 2
 ---
 
-# これらについて深くは触れません
+# これらについては深く触れません
 
 ---
 layout: image-right
@@ -15,16 +15,17 @@ level: 2
 
 # WASM Ecosystem
 
-今回は WebAssembly に付随する技術について深くは触れません
+今回は WebAssembly に付随する技術については深く触れません
 
 <br />
 
 <LogoList :items="[
     { name: 'WebAssembly', path: '/wasm/webassembly.svg' },
     { name: 'WASI', path: '/wasm/wasi.png' },
-    { name: 'WAX', path: '/wasm/wax.svg' },
     { name: 'Wasmer', path: '/wasm/wasmer.svg' },
     { name: 'WASIX', path: '/wasm/wasix.svg' },
+    { name: 'Grain', path: '/wasm/grain.svg' },
+    { name: 'MoonBit', path: '/wasm/moonbit.svg' },
     { name: 'Onyx', path: '/wasm/onyx.svg' },
   ]"/>
 
@@ -37,7 +38,7 @@ level: 2
 
 # JavaScript Runtime
 
-今回は JavaScript 実行環境について深くは触れません
+今回は JavaScript 実行環境については深く触れません
 
 <br/>
 
@@ -59,7 +60,7 @@ level: 2
 
 # JavaScript Engine
 
-今回は JavaScript エンジンについて深くは触れません
+今回は JavaScript エンジンについては深く触れません
 
 <br/>
 
@@ -81,7 +82,7 @@ level: 2
 
 # Toolchain
 
-今回は JavaScript ツールチェインについて深くは触れません
+今回は JavaScript ツールチェインについては深く触れません
 
 <br/>
 
@@ -98,6 +99,28 @@ level: 2
 
 ---
 layout: image-right
+image: https://cover.sli.dev?1d000a20
+transition: slide-up
+level: 2
+---
+
+# Post SSG
+
+今回は Post SSG については深く触れません
+
+<br/>
+
+<LogoList :items="[
+    { name: '11ty', path: '/island/11ty.svg' },
+    { name: 'Astro', path: '/island/astro.svg' },
+    { name: 'Fresh', path: '/island/fresh.svg' },
+    { name: 'Hono', path: '/island/hono.png' },
+    { name: 'Alpine.js', path: '/island/alpine.js.svg' },
+    { name: 'htmx', path: '/island/htmx.svg' },
+  ]" />
+
+---
+layout: image-right
 image: https://cover.sli.dev?111680c9
 transition: slide-left
 level: 2
@@ -105,7 +128,7 @@ level: 2
 
 # CSS Ecosystem
 
-今回は JavaScript におけるスタイリング手法について深くは触れません
+今回は JavaScript におけるスタイリング手法については深く触れません
 
 <br />
 
