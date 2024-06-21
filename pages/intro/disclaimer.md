@@ -4,7 +4,7 @@ transition: slide-up
 level: 2
 ---
 
-# これらについては触れません
+# これらについて深くは触れません
 
 ---
 layout: image-right
@@ -15,12 +15,13 @@ level: 2
 
 # WASM Ecosystem
 
-本登壇では WebAssembly に付随する技術については触れません
+今回は WebAssembly に付随する技術について深くは触れません
 
 <br />
 
 <LogoList :items="[
     { name: 'WebAssembly', path: '/wasm/webassembly.svg' },
+    { name: 'WASI', path: '/wasm/wasi.png' },
     { name: 'WAX', path: '/wasm/wax.svg' },
     { name: 'Wasmer', path: '/wasm/wasmer.svg' },
     { name: 'WASIX', path: '/wasm/wasix.svg' },
@@ -36,7 +37,7 @@ level: 2
 
 # JavaScript Runtime
 
-本登壇では JavaScript 実行環境については触れません
+今回は JavaScript 実行環境について深くは触れません
 
 <br/>
 
@@ -58,7 +59,7 @@ level: 2
 
 # JavaScript Engine
 
-本登壇では JavaScript エンジンについては触れません
+今回は JavaScript エンジンについて深くは触れません
 
 <br/>
 
@@ -73,6 +74,30 @@ level: 2
 
 ---
 layout: image-right
+image: https://cover.sli.dev?1d000a20
+transition: slide-up
+level: 2
+---
+
+# Toolchain
+
+今回は JavaScript ツールチェインについて深くは触れません
+
+<br/>
+
+<LogoList :items="[
+    { name: 'Grunt', path: '/toolchain/grunt.svg' },
+    { name: 'Browserify', path: '/toolchain/browserify.svg' },
+    { name: 'Webpack', path: '/toolchain/webpack.svg' },
+    { name: 'Snowpack', path: '/toolchain/snowpack.svg' },
+    { name: 'Vite', path: '/toolchain/vite.svg' },
+    { name: 'Rollup.js', path: '/toolchain/rollup.js.svg' },
+    { name: 'Turbopack', path: '/toolchain/turbopack.svg' },
+    { name: 'Rolldown', path: '/toolchain/rolldown.svg' },
+  ]" />
+
+---
+layout: image-right
 image: https://cover.sli.dev?111680c9
 transition: slide-left
 level: 2
@@ -80,7 +105,7 @@ level: 2
 
 # CSS Ecosystem
 
-本登壇では JavaScript におけるスタイリング手法については触れません
+今回は JavaScript におけるスタイリング手法について深くは触れません
 
 <br />
 
