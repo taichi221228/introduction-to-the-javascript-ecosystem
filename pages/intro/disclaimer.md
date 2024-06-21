@@ -99,7 +99,7 @@ level: 2
 
 ---
 layout: image-right
-image: https://cover.sli.dev?1d000a20
+image: https://cover.sli.dev?d8477301
 transition: slide-up
 level: 2
 ---
