@@ -4,7 +4,7 @@ transition: slide-up
 level: 2
 ---
 
-# これらについては深く触れません
+# これらについては触れません
 
 ---
 layout: image-right
@@ -95,28 +95,6 @@ level: 2
     { name: 'Rollup.js', path: '/toolchain/rollup.js.svg' },
     { name: 'Turbopack', path: '/toolchain/turbopack.svg' },
     { name: 'Rolldown', path: '/toolchain/rolldown.svg' },
-  ]" />
-
----
-layout: image-right
-image: https://cover.sli.dev?d8477301
-transition: slide-up
-level: 2
----
-
-# Post SSG
-
-今回は Post SSG については深く触れません
-
-<br/>
-
-<LogoList :items="[
-    { name: '11ty', path: '/island/11ty.svg' },
-    { name: 'Astro', path: '/island/astro.svg' },
-    { name: 'Fresh', path: '/island/fresh.svg' },
-    { name: 'Hono', path: '/island/hono.png' },
-    { name: 'Alpine.js', path: '/island/alpine.js.svg' },
-    { name: 'htmx', path: '/island/htmx.svg' },
   ]" />
 
 ---
