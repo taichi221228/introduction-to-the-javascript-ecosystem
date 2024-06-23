@@ -53,3 +53,7 @@ src: ./pages/attention/compiler.md
 ---
 src: ./pages/attention/islands.md
 ---
+
+---
+src: ./pages/attention/resumability.md
+---
