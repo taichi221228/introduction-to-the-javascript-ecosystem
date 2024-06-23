@@ -32,7 +32,7 @@ IR からの脱却
 
 ::right::
 
-<div class='grid mx-4'>
+<div class="grid mx-4">
   <img src="/compiler/svelte.svg" alt="Svelte" />
   <img src="/compiler/solidjs.svg" alt="SolidJS" class="ml-auto" />
 </div>
@@ -212,7 +212,7 @@ const Component = (props) => {
 </script>
 
 <div>
-  <p>Selected {selected ? selected.name : 'nothing'}</p>
+  <p>Selected {selected ? selected.name : "nothing"}</p>
   <ul>
     {#each items as item (item.id)}
       <li>

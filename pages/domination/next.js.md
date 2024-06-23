@@ -34,7 +34,7 @@ Meta-Framework、すなわち**ライブラリのフレームワーク**ムー�
 
 ::right::
 
-<div class='grid gap-4'>
+<div class="grid gap-4">
   <img src="/ssr/next.js.svg" alt="Next.js" />
   <img src="/ssr/nuxt.svg" alt="Nuxt" class="ml-auto" />
 </div>
@@ -64,9 +64,9 @@ level: 2
 
 | Route                     | URL           | params                      |
 | ------------------------- | ------------- | --------------------------- |
-| `pages/blog/[slug].js`    | `/blog/a`     | `{ slug: 'a' }`             |
-| `pages/shop/[...slug].js` | `/shop/a/b`   | `{ slug: ['a', 'b'] }`      |
-| `pages/shop/[...slug].js` | `/shop/a/b/c` | `{ slug: ['a', 'b', 'c'] }` |
+| `pages/blog/[slug].js`    | `/blog/a`     | `{ slug: "a" }`             |
+| `pages/shop/[...slug].js` | `/shop/a/b`   | `{ slug: ["a", "b"] }`      |
+| `pages/shop/[...slug].js` | `/shop/a/b/c` | `{ slug: ["a", "b", "c"] }` |
 
 ---
 layout: two-cols
@@ -91,7 +91,7 @@ Create React App もセットアップ自体は速かったが、Next.js は過�
 ```js twoslash
 // @ts-check
 
-/** @type {import('next').NextConfig} */
+/** @type {import("next").NextConfig} */
 const nextConfig = {
   env: { CUSTOM_KEY: "my-custom-value" },
   redirects: async () => [

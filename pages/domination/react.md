@@ -34,7 +34,7 @@ VDOM はこれらの問題を解決するために生まれたもので、View �
 
 ::right::
 
-<div class='grid gap-4'>
+<div class="grid gap-4">
   <img src="/vdom/react.svg" alt="React" />
   <img src="/vdom/vue.js.svg" alt="Vue.js" class="ml-auto" />
 </div>
