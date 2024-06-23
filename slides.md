@@ -35,11 +35,11 @@ src: ./pages/domination/title.md
 ---
 
 ---
-src: ./pages/domination/react.md
+src: ./pages/domination/vdom.md
 ---
 
 ---
-src: ./pages/domination/next.js.md
+src: ./pages/domination/ssr.md
 ---
 
 ---
