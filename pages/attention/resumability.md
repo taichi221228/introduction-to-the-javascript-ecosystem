@@ -228,6 +228,41 @@ transition: slide-up
 level: 2
 ---
 
+# ランタイムの差異（再掲）
+
+Hydration の問題点その 1
+
+<div class="opacity-50">
+
+SSR はサーバーでレンダリングしているが、**それを実際に使いたいのはクライアントである**
+
+しかしクライアントには何が乗っかっているだろうか？
+
+### VDOM、あるいは JavaScript 実行ファイルである（後者は後ほど説明します）
+
+では VDOM や JavaScript 実行ファイルの実体はなんだろうか？
+
+### JavaScript である
+
+しかし SSR から返却されたものは？
+
+### HTML である
+
+</div>
+
+この矛盾の解決のために、React や Vue.js は SSR で受け取った後にクライアントで**同じように一度レンダリング行い、その結果を破棄した後に HTML と接続するという大変回りくどいことをやっている**
+
+<div class="opacity-50">
+
+`Hydration Mismatch` というエラー名の由来もまさしくこれ
+
+</div>
+
+---
+transition: slide-up
+level: 2
+---
+
 # Resumable Component Tree
 
 繰り返しますが、Qwik は**再開可能**です
@@ -278,7 +313,87 @@ level: 2
 
 Qwik の根底
 
-Qwik のこの積極的な最適化を語る上で、外せない概念
+Qwik の理念は、コードの読み込みを可能な限り遅らせること
+
+Qwik のコードの随所に登場する `$` がシリアライズ兼遅延読み込みのフラグであり、**`$` でラップされた箇所は全て Chunk が区切られ、最小実行単位としてシリアライズされる**
+
+ちなみにパフォーマンスの観点から、この Qwik Optimizer は Rust で実装されている
+
+```tsx {1,3,6}
+import { component$ } from "@builder.io/qwik";
+
+export default component$(() => {
+  return (
+    <button
+      onClick$={() => {
+        alert("Hello Qwik");
+      }}
+    >
+      Hello Qwik
+    </button>
+  );
+});
+```
+
+---
+transition: slide-up
+level: 2
+---
+
+# Optimize の例
+
+軽く解説
+
+このようなコンポーネントがあった場合
+
+````md magic-move
+```tsx
+import { component$ } from "@builder.io/qwik";
+
+export default component$(() => {
+  return (
+    <button
+      onClick$={() => {
+        alert("Hello Qwik");
+      }}
+    >
+      Hello Qwik
+    </button>
+  );
+});
+```
+
+<!-- prettier-ignore-start -->
+```tsx
+import { _ as _jsxQ, q as qrlDEV } from "./_qwikCore.js";
+
+const app_component_Ncbm0Trxwgc = () => {
+  return /*#__PURE__*/ _jsxQ(
+    "button", null,
+    {
+      onClick$: /*#__PURE__*/ qrlDEV(
+        () => import("./app_component_p_onclick_qaxf8kamygk.js"),
+        "app_component_p_onClick_qAXF8KaMygk",
+        { file: "/app.tsx", lo: 105, hi: 132, displayName: "app_component_p_onClick" },
+      ),
+    },
+    "Hello Qwik", 3, "4e_0",
+    { fileName: "app.tsx", lineNumber: 4, columnNumber: 10 },
+  );
+};
+
+export { app_component_Ncbm0Trxwgc };
+```
+<!-- prettier-ignore-end -->
+
+```tsx
+const app_component_p_onClick_qAXF8KaMygk = () => {
+  alert("Hello Qwik");
+};
+
+export { app_component_p_onClick_qAXF8KaMygk };
+```
+````
 
 ---
 transition: slide-up
@@ -286,6 +401,29 @@ level: 2
 ---
 
 # Qwikloader の仕組み
+
+最後に Qwik が Hydration を辞めた方法を解説
+
+1. Qwikloader が全イベントに対しての Global Listener を設置
+
+2. ユーザーが `<button />` をクリックしたら、Bubble を辿って DOM を特定
+
+3. イベントパスを辿り、要素上の `[on:click]` を検索
+
+4. `document.baseURI`・`[on:click]`・`[q:base]` を使用し、Chunk へのパス（QRL）を解決
+
+5. QRL からエクスポートされたシンボル `#clickHandler` を取得し実行
+
+```html
+<html>
+  <body q:base="/build/">
+    <button on:click="./myHandler.js#clickHandler">push me</button>
+    <script>
+      /* Qwikloader */
+    </script>
+  </body>
+</html>
+```
 
 ---
 layout: image-right
@@ -296,7 +434,7 @@ level: 2
 
 # その他
 
-実はそれだけではありません
+それだけではありません
 
 Qwik は最も新しいこともあり、それまでに生まれた新型 UI ライブラリ全ての特徴的な優位性を持っている
 
@@ -341,9 +479,7 @@ level: 2
 
 # 課題
 
-最強故の課題
-
-最後に Qwik の抱える課題
+最後に Qwik の抱える最強故の課題
 
 1. 難しすぎる
 
@@ -351,11 +487,14 @@ level: 2
    Qwik チームは 「React の知識だけで使える」と言っているが、まず間違いなく無理である\
    強力なパフォーマンスを発揮するために多くの制約があり、これらは React の知識から逸脱している
 
-2. まともな UI ライブラリがない
+2. SSR 前提
+
+   Qwik は SSR の段階で処理できるものは全て処理してしまい、クライアントに不必要に処理を強要しない\
+   故に SSR が前提であり、CSR でアプリを作ることが難しい
+
+3. まともな UI ライブラリがない
 
    現状まともな UI ライブラリが存在しない\
    ライブラリ登場初期にエコシステムが弱いのはどうしようもないとしても、あまりにも択がない
-
-<br />
 
 しかし現状理論上最強なのは間違いないので、今後どうなっていくかが一番楽しみな技術である
