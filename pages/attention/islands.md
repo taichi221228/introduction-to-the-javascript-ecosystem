@@ -29,8 +29,10 @@ Post SSG
 ::right::
 
 <div class="grid mx-4">
-  <img src="/islands/astro.svg" alt="Astro" />
-  <img src="/islands/fresh.svg" alt="Fresh" class="ml-auto" />
+
+![Astro](/islands/astro.svg)
+![Fresh](/islands/fresh.svg) {.ml-auto}
+
 </div>
 
 ---

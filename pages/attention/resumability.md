@@ -27,7 +27,9 @@ Resumability ~ 再開可能性 ~
 ::right::
 
 <div class="grid items-center justify-center h-full">
-  <img src="/resumability/qwik.svg" alt="Qwik"/>
+
+![Qwik](/resumability/qwik.svg)
+
 </div>
 
 ---
@@ -123,7 +125,7 @@ document.querySelector("dom_symbol")?.addEventListener("click", (_event) => {
 });
 ```
 
-<small class="opacity-50">使われるかもわからないインタラクティブのためにコストを割く必要がない</small>
+使われるかもわからないインタラクティブのためにコストを割く必要がない {.opacity-50.text-sm}
 
 ---
 transition: slide-up

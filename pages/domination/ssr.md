@@ -35,8 +35,10 @@ Meta-Framework、すなわち**ライブラリのフレームワーク**ムー�
 ::right::
 
 <div class="grid gap-4">
-  <img src="/ssr/next.js.svg" alt="Next.js" />
-  <img src="/ssr/nuxt.svg" alt="Nuxt" class="ml-auto" />
+
+![Next.js](/ssr/next.js.svg)
+![Nuxt](/ssr/nuxt.svg) {.ml-auto}
+
 </div>
 
 ---
