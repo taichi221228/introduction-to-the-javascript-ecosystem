@@ -66,3 +66,26 @@ level: 2
 ---
 
 # Slidev について
+
+本スライドのコードは*生きて*います
+
+また、本スライドには同氏が開発した Shiki および Twoslash による完全自己完結型 TS コンパイラとそれに付随するランタイムが内蔵されています。
+
+ゆえに本スライドのコードブロックは全て**生きています**{.text-primary}
+
+なので、よければミラーリングではなく手元で同期されたスライドを使用してください
+
+```ts twoslash
+function* fibonacci(): Generator<number> {
+  let a = 0,
+    b = 1;
+  while (true) {
+    yield a;
+    [a, b] = [b, a + b];
+  }
+}
+
+const fibGen = fibonacci();
+
+for (let i = 0; i < 10; i++) console.log(fibGen.next().value);
+```
