@@ -25,8 +25,8 @@ level: 2
     { name: 'Wasmer', path: '/wasm/wasmer.svg' },
     { name: 'WASIX', path: '/wasm/wasix.svg' },
     { name: 'Grain', path: '/wasm/grain.svg' },
-    { name: 'MoonBit', path: '/wasm/moonbit.svg' },
     { name: 'Onyx', path: '/wasm/onyx.svg' },
+    { name: 'MoonBit', path: '/wasm/moonbit.svg' },
   ]"/>
 
 ---

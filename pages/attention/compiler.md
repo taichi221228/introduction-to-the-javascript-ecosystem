@@ -45,7 +45,7 @@ level: 2
 # 政治状況
 
 <div class="flex gap-4">
-<div class="basis-1/3 shrink-0">
+<div class="basis-2/5 shrink-0">
 
 Svelte は Stack Overflow Developer Survey 2021 にて
 
@@ -53,7 +53,7 @@ Svelte は Stack Overflow Developer Survey 2021 にて
 
 日本でも割と採用実績が出てきており、有名どころでいえば
 
-現在日本一技術力が高い JamStack・エッジサーバレスの専門家集団 PixelGrid Inc. が積極的に採用している
+**現在日本で最も技術力が高い JamStack・エッジサーバレスの専門家集団 PixelGrid Inc. が積極的に採用していることで有名**
 
 </div>
 
@@ -85,8 +85,9 @@ React は偉大だが、難しすぎる
 
 ![](/compiler/kitze.png)
 
-<small class="opacity-50">Web フロントエンドの権威 kitze にとって React Hooks は扱い辛いものだった</small>\
-<small class="opacity-50">そして MobX が過小評価されているという見解は私も激しく同意する</small>
+Web フロントエンドの権威 kitze にとって React Hooks は扱い辛いものだった{.opacity-50.text-sm}
+
+ちなみに MobX が過小評価されているという見解は、この後的中することとなる{.opacity-50.text-sm}
 
 ---
 transition: slide-up
